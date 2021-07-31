@@ -53,6 +53,12 @@ return require('packer').startup(function()
 	use {
           'christianchiarulli/nvcode-color-schemes.vim'
 	}
+	use {
+    'AckslD/nvim-whichkey-setup.lua',
+    requires = {'liuchengxu/vim-which-key'},
+}
+
+	use "liuchengxu/vim-which-key" 
 
 end
 )
