@@ -24,7 +24,8 @@ return require('packer').startup(function()
 	use {
 		'neovim/nvim-lspconfig',
 		'hrsh7th/nvim-compe',
-		'williamboman/nvim-lsp-installer'
+		'williamboman/nvim-lsp-installer',
+                'glepnir/lspsaga.nvim'
 	}
 
 	use {
@@ -35,13 +36,24 @@ return require('packer').startup(function()
             'francoiscabrol/ranger.vim'
 	}
 
-	use {
-           'glepnir/lspsaga.nvim'
-	}
 
 	use {
           'glepnir/galaxyline.nvim',
 	  config = require('config.eviline')
 	}
+
+	use {
+         'junegunn/fzf.vim'
+	}
+
+	use {
+         'eluum/vim-autopair'
+	}
+
+	use {
+          'christianchiarulli/nvcode-color-schemes.vim'
+	}
+
+	use 'itchyny/lightline.vim'
 end
 )
