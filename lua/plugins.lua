@@ -54,6 +54,5 @@ return require('packer').startup(function()
           'christianchiarulli/nvcode-color-schemes.vim'
 	}
 
-	use 'itchyny/lightline.vim'
 end
 )
