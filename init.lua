@@ -1,8 +1,8 @@
 require('plugins')
 require('general')
-require('plugins.lsp-comp')
+require('config.lsp-comp')
+require('config.treesitter')
 require('lsp.lsp-setup')
 require('remaps')
 
--- TODO Change these to another file
 
